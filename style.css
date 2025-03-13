@@ -784,6 +784,7 @@ nav {
   color: var(--primary-color);
   font-size: 1.2rem;
   transition: var(--transition);
+  margin-left: 10px; /* Moved LinkedIn link to the right */
 }
 
 .social-link:hover,
@@ -1155,4 +1156,11 @@ pre code {
 
 .param-optional {
   color: var(--gray-text);
+}
+
+/* ====== CONTACT SECTION - FONT SIZE REDUCTION ====== */
+.contact-info .contact-item p.company-details,
+.contact-info .contact-item p.ceo-details,
+.contact-info .contact-item p.phone-details {
+    font-size: 0.7rem; /* Reduced font size by approximately 50% from the base paragraph size */
 }
