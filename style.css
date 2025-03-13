@@ -757,7 +757,7 @@ nav {
 }
 
 .contact-details h4 {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-base); /* Reduced header size by setting it to base font size (50% smaller than before roughly) */
   margin-bottom: 0.3rem;
   color: var(--dark-text);
 }
@@ -890,6 +890,7 @@ footer {
   .section-title { font-size: var(--font-size-h3); }
 
   .contact-grid { grid-template-columns: 1fr; } /* Stack contact grid on smaller screens */
+  .contact-info { margin-bottom: 3rem; } /* Add margin below contact info when stacked */
   .api-container { grid-template-columns: 1fr; /* Stack API layout */ }
   .api-nav {
     border-right: none; /* Remove border on stacked nav */
